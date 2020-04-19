@@ -1,6 +1,8 @@
+run: main
+	./main
 all: main.o findsubstr.o readline.o
 	gcc main.o findsubstr.o readline.o -o main 
-main.o: main.c findsubstr.h
+main.o: main.c findsubstr.h readline.h
 	gcc -c main.c
 findsubstr.o: findsubstr.c findsubstr.h
 	gcc -c findsubstr.c

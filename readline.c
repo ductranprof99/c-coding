@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "readline.h"
 
-int read_line( char* str )
+int read_line( const char* str )
 {
-    int offset = 0;
     int count = 0;
-
+    int offset = 0; 
     while (*(str + offset) != '\0')
     {
         ++count;

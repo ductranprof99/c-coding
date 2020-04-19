@@ -2,6 +2,6 @@
 #define READ_LINE_H
 
 #include<stdio.h>
-int read_line( char* str );
+int read_line( const char* str );
 
 #endif
