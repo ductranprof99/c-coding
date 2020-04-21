@@ -4,6 +4,6 @@
 #include<stdio.h>
 
 int find_sub_string( const char* str, const char* sub );
-int sub ( const char* ptr0 );
+int size(const char *ptr0 );
 
 #endif

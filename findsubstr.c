@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "findsubstr.h"
 
-int size( const char *ptr0 )
+int size(const char *ptr0 )
 {
     int offset = 0;
     int count = 0;

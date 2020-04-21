@@ -2,7 +2,9 @@
 #include "readline.h"
 
 int main(int argc, char* argv[])  { 	
-  int bai1 = find_sub_string(argv[0],argv[1]);
+  printf("%s\n" ,argv[1]);
+  printf("%s\n" ,argv[2]);
+  int bai1 = find_sub_string(argv[1],argv[2]);
   printf("%d\n",bai1);
   int c;
   char *s;
