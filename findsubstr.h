@@ -6,4 +6,5 @@
 int find_sub_string( const char* str, const char* sub );
 int size(const char *ptr0 );
 
+
 #endif

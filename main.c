@@ -14,7 +14,7 @@ int main(int argc, char* argv[])  {
   while ((c = getchar()) != EOF) {
       i++;
       s = realloc(s, i * sizeof(char));
-      append(s, c);
+      s = strcat(s,c);
     if (c == '\n')
     {
       printf("%d\n",read_line(s));
