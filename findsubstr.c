@@ -31,5 +31,5 @@ int find_sub_string( const char* str, const char* sub )
       }
    }
    if ( count == 0 ) return -1;
-   return count-length2+1;
+   return count-length2 + 1;
 }

@@ -2,7 +2,11 @@
 #include "readline.h"
 
 
-
+void append(char *s, char c) {
+    size_t len = strlen(s);
+    s[len] = c;
+    s[len + 1] = '\0';
+}
 int read_line( const char *str )
 {
     int count = 0;
@@ -15,5 +19,3 @@ int read_line( const char *str )
 
     return count;
 }
- 
-
